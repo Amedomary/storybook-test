@@ -23,4 +23,12 @@ function App() {
   );
 }
 
+export const Sq = (props) => (
+  <div className="block">
+    <div className="block-name">
+      { props.title }
+    </div>
+  </div>
+)
+
 export default App;
